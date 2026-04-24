@@ -36,13 +36,41 @@ def main():
     # ----------------------------------------------
 
     # TODO: Call each processing function (extract_pdf_data, clean_transcript, etc.)
-    # TODO: Run quality gates (run_quality_gate) before adding to final_kb
-    # TODO: Save final_kb to output_path using json.dump
+    all_docs = []
     
-    # Example:
-    # doc = extract_pdf_data(pdf_path)
-    # if doc and run_quality_gate(doc):
-    #     final_kb.append(doc)
+    # 1. PDF
+    pdf_doc = extract_pdf_data(pdf_path)
+    if pdf_doc:
+        all_docs.append(pdf_doc)
+        
+    # 2. Transcript
+    trans_doc = clean_transcript(trans_path)
+    if trans_doc:
+        all_docs.append(trans_doc)
+        
+    # 3. HTML
+    html_docs = parse_html_catalog(html_path)
+    if html_docs:
+        all_docs.extend(html_docs)
+        
+    # 4. CSV
+    csv_docs = process_sales_csv(csv_path)
+    if csv_docs:
+        all_docs.extend(csv_docs)
+        
+    # 5. Legacy Code
+    code_doc = extract_logic_from_code(code_path)
+    if code_doc:
+        all_docs.append(code_doc)
+        
+    # TODO: Run quality gates (run_quality_gate) before adding to final_kb
+    for doc in all_docs:
+        if run_quality_gate(doc):
+            final_kb.append(doc)
+            
+    # TODO: Save final_kb to output_path using json.dump
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(final_kb, f, ensure_ascii=False, indent=4)
 
     end_time = time.time()
     print(f"Pipeline finished in {end_time - start_time:.2f} seconds.")

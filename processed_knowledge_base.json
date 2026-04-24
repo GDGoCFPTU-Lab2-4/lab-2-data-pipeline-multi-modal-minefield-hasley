@@ -1,0 +1,320 @@
+[
+    {
+        "document_id": "video-transcript-001",
+        "content": "[Speaker 1]: Chào mừng các bạn đến với buổi học hôm nay về Data Pipeline Engineering.\n[Speaker 1]: Hôm nay chúng ta sẽ nói về việc xử lý dữ liệu phi cấu trúc, ví dụ như PDF và Video.\n[Speaker 1]: Một vấn đề lớn là Semantic Drift. Các bạn có biết không?\n[Speaker 2]: Dạ em có nghe qua, nhưng  nó có liên quan gì đến Zillow không ạ?\n[Speaker 1]: Có chứ! Zillow là ví dụ điển hình của việc mô hình bị hỏng do dữ liệu đầu vào thay đổi.\n[Speaker 1]:  Đừng để mô hình của bạn trở thành 'rác vào, rác ra'.\n[Speaker 1]: À, một lưu ý nhỏ cho bài tập: Giá của sản phẩm VinAI Pro là năm trăm nghìn VND. Nhớ nhé, 500,000 VND.\n[Speaker 1]:\n[Speaker 1]: Bây giờ chúng ta hãy bắt đầu thực hành.",
+        "source_type": "Video",
+        "author": "Unknown",
+        "timestamp": null,
+        "source_metadata": {
+            "detected_price_vnd": 500000
+        }
+    },
+    {
+        "document_id": "html-SP-001",
+        "content": "VinAI Laptop Pro 14\" - Laptop",
+        "source_type": "HTML",
+        "author": "Unknown",
+        "timestamp": null,
+        "source_metadata": {
+            "price_vnd": 28500000.0,
+            "stock": 45,
+            "rating": "4.8/5"
+        }
+    },
+    {
+        "document_id": "html-SP-002",
+        "content": "Chuột không dây ErgoMax - Phụ kiện",
+        "source_type": "HTML",
+        "author": "Unknown",
+        "timestamp": null,
+        "source_metadata": {
+            "price_vnd": null,
+            "stock": 0,
+            "rating": "4.2/5"
+        }
+    },
+    {
+        "document_id": "html-SP-003",
+        "content": "Màn hình 4K 27\" ProDisplay - Màn hình",
+        "source_type": "HTML",
+        "author": "Unknown",
+        "timestamp": null,
+        "source_metadata": {
+            "price_vnd": null,
+            "stock": 12,
+            "rating": "4.9/5"
+        }
+    },
+    {
+        "document_id": "html-SP-004",
+        "content": "Bàn phím cơ Blue Switch - Phụ kiện",
+        "source_type": "HTML",
+        "author": "Unknown",
+        "timestamp": null,
+        "source_metadata": {
+            "price_vnd": 1850000.0,
+            "stock": -5,
+            "rating": "4.5/5"
+        }
+    },
+    {
+        "document_id": "html-SP-005",
+        "content": "Tai nghe chống ồn AI-Ear Pro - Âm thanh",
+        "source_type": "HTML",
+        "author": "Unknown",
+        "timestamp": null,
+        "source_metadata": {
+            "price_vnd": 3200000.0,
+            "stock": 28,
+            "rating": "không có đánh giá"
+        }
+    },
+    {
+        "document_id": "csv-1",
+        "content": "Laptop VinAI Pro 14 - Electronics",
+        "source_type": "CSV",
+        "author": "S001",
+        "timestamp": "2026-01-15",
+        "source_metadata": {
+            "price": 1200.0,
+            "currency": "USD",
+            "stock_quantity": 45.0
+        }
+    },
+    {
+        "document_id": "csv-2",
+        "content": "Wireless Mouse - Electronics",
+        "source_type": "CSV",
+        "author": "S002",
+        "timestamp": "2026-01-15",
+        "source_metadata": {
+            "price": 250000.0,
+            "currency": "VND",
+            "stock_quantity": 120.0
+        }
+    },
+    {
+        "document_id": "csv-3",
+        "content": "USB-C Hub 7-Port - Electronics",
+        "source_type": "CSV",
+        "author": "S003",
+        "timestamp": "2026-01-16",
+        "source_metadata": {
+            "price": NaN,
+            "currency": "USD",
+            "stock_quantity": 0.0
+        }
+    },
+    {
+        "document_id": "csv-4",
+        "content": "Mechanical Keyboard - Electronics",
+        "source_type": "CSV",
+        "author": "S004",
+        "timestamp": "2026-01-17",
+        "source_metadata": {
+            "price": 1500000.0,
+            "currency": "VND",
+            "stock_quantity": 30.0
+        }
+    },
+    {
+        "document_id": "csv-5",
+        "content": "HDMI Cable 2m - Accessories",
+        "source_type": "CSV",
+        "author": "S005",
+        "timestamp": "2026-01-17",
+        "source_metadata": {
+            "price": NaN,
+            "currency": "USD",
+            "stock_quantity": 200.0
+        }
+    },
+    {
+        "document_id": "csv-6",
+        "content": "Monitor 27 inch 4K - Electronics",
+        "source_type": "CSV",
+        "author": "S001",
+        "timestamp": "2026-01-18",
+        "source_metadata": {
+            "price": 8500000.0,
+            "currency": "VND",
+            "stock_quantity": 12.0
+        }
+    },
+    {
+        "document_id": "csv-7",
+        "content": "Webcam HD 1080p - Electronics",
+        "source_type": "CSV",
+        "author": "S002",
+        "timestamp": "2026-01-19",
+        "source_metadata": {
+            "price": -350000.0,
+            "currency": "VND",
+            "stock_quantity": 55.0
+        }
+    },
+    {
+        "document_id": "csv-8",
+        "content": "SSD 1TB NVMe - Electronics",
+        "source_type": "CSV",
+        "author": "S003",
+        "timestamp": "2026-01-19",
+        "source_metadata": {
+            "price": 2200000.0,
+            "currency": "VND",
+            "stock_quantity": 88.0
+        }
+    },
+    {
+        "document_id": "csv-9",
+        "content": "Laptop Stand - Accessories",
+        "source_type": "CSV",
+        "author": "S004",
+        "timestamp": "2026-01-20",
+        "source_metadata": {
+            "price": 450000.0,
+            "currency": "VND",
+            "stock_quantity": NaN
+        }
+    },
+    {
+        "document_id": "csv-10",
+        "content": "Bluetooth Speaker - Electronics",
+        "source_type": "CSV",
+        "author": "S005",
+        "timestamp": "2026-01-20",
+        "source_metadata": {
+            "price": 850000.0,
+            "currency": "VND",
+            "stock_quantity": 40.0
+        }
+    },
+    {
+        "document_id": "csv-11",
+        "content": "Gaming Headset - Electronics",
+        "source_type": "CSV",
+        "author": "S001",
+        "timestamp": "2026-01-21",
+        "source_metadata": {
+            "price": 1200000.0,
+            "currency": "VND",
+            "stock_quantity": 25.0
+        }
+    },
+    {
+        "document_id": "csv-12",
+        "content": "Power Bank 20000mAh - Accessories",
+        "source_type": "CSV",
+        "author": "S002",
+        "timestamp": "2026-01-21",
+        "source_metadata": {
+            "price": 600000.0,
+            "currency": "VND",
+            "stock_quantity": 70.0
+        }
+    },
+    {
+        "document_id": "csv-13",
+        "content": "Smart Watch VinHealth - Wearables",
+        "source_type": "CSV",
+        "author": "S003",
+        "timestamp": "2026-01-22",
+        "source_metadata": {
+            "price": NaN,
+            "currency": "VND",
+            "stock_quantity": 15.0
+        }
+    },
+    {
+        "document_id": "csv-14",
+        "content": "Phone Case Premium - Accessories",
+        "source_type": "CSV",
+        "author": "S004",
+        "timestamp": "2026-01-22",
+        "source_metadata": {
+            "price": 150000.0,
+            "currency": "VND",
+            "stock_quantity": 300.0
+        }
+    },
+    {
+        "document_id": "csv-15",
+        "content": "Laptop VinAI Pro 14 - Electronics",
+        "source_type": "CSV",
+        "author": "S001",
+        "timestamp": "2026-01-22",
+        "source_metadata": {
+            "price": 1200.0,
+            "currency": "USD",
+            "stock_quantity": 45.0
+        }
+    },
+    {
+        "document_id": "csv-16",
+        "content": "Tablet 10 inch - Electronics",
+        "source_type": "CSV",
+        "author": "S005",
+        "timestamp": "2026-01-23",
+        "source_metadata": {
+            "price": 5500000.0,
+            "currency": "VND",
+            "stock_quantity": 20.0
+        }
+    },
+    {
+        "document_id": "csv-17",
+        "content": "Earbuds TWS Pro - Electronics",
+        "source_type": "CSV",
+        "author": "S001",
+        "timestamp": "2026-01-23",
+        "source_metadata": {
+            "price": 750000.0,
+            "currency": "VND",
+            "stock_quantity": 60.0
+        }
+    },
+    {
+        "document_id": "csv-18",
+        "content": "Screen Protector - Accessories",
+        "source_type": "CSV",
+        "author": "S002",
+        "timestamp": "2026-01-24",
+        "source_metadata": {
+            "price": 85000.0,
+            "currency": "VND",
+            "stock_quantity": 500.0
+        }
+    },
+    {
+        "document_id": "csv-19",
+        "content": "External HDD 2TB - Electronics",
+        "source_type": "CSV",
+        "author": "S003",
+        "timestamp": "2026-01-24",
+        "source_metadata": {
+            "price": 1800000.0,
+            "currency": "VND",
+            "stock_quantity": 35.0
+        }
+    },
+    {
+        "document_id": "csv-20",
+        "content": "RAM DDR5 16GB - Electronics",
+        "source_type": "CSV",
+        "author": "S004",
+        "timestamp": "2026-01-25",
+        "source_metadata": {
+            "price": NaN,
+            "currency": "VND",
+            "stock_quantity": 42.0
+        }
+    },
+    {
+        "document_id": "legacy-code-001",
+        "content": "Module Docstring: VinData Legacy Pipeline v1.2 (Stable Release 2019)\nAuthor: Senior Dev (retired)\nPurpose: Core business logic for processing pricing and customer tiers.\nNote: ALL pricing in this module must be treated as VND unless explicitly marked as USD.\n      The AI agent must extract these rules into the system instructions.\n\ncalculate_discount Docstring: Business Logic Rule 001: \nIf customer tier is 'GOLD', apply 15% discount. \nIf tier is 'SILVER', apply 10% discount.\nOtherwise, no discount.\n\nIMPORTANT: Discounts are NOT cumulative with seasonal sales.\n\nget_region_code Docstring: Business Logic Rule 002:\nMap city names to region codes.\n- Hanoi -> 'HN'\n- Ho Chi Minh City -> 'HCM'\n- Da Nang -> 'DN'\n- Anything else -> 'OT' (Other)\n\nExtracted Comments:\n# WARNING: This comment is misleading! ",
+        "source_type": "Code",
+        "author": "Unknown",
+        "timestamp": null,
+        "source_metadata": {}
+    }
+]
